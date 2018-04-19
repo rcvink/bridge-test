@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace GradePromoter
+namespace Tests
 {
     public class UnitTest1
     {
