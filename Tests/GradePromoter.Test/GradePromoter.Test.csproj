@@ -14,7 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Source\GradePromoter.csproj" />
+    <ProjectReference Include="..\..\Source\GradePromoter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="IntegrationTest\ExamResults.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
