@@ -1,0 +1,15 @@
+Grade Standard 1
+
+Promoted:
+9,Semaj Lawson
+8,Aedan Weaver
+2,Cierra Hendrix
+5,Thaddeus Fitzpatrick
+7,Francis Knight
+6,Roderick Morales
+1,Gisselle Haley
+4,Elise Larsen
+
+Not Promoted:
+3,Jon Rojas
+
