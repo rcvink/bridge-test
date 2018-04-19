@@ -1,8 +1,6 @@
-﻿using GradePromoter.Models;
-using GradePromoter.Services;
+﻿using GradePromoter.Services;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Linq;
 
 namespace GradePromoter
 {
