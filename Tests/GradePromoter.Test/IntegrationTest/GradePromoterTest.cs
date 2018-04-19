@@ -6,7 +6,7 @@ using Xunit;
 
 namespace GradePromoter.IntegrationTest
 {
-    public class UnitTest1
+    public class GradePromoterTest
     {
         [Fact]
         public async Task GradePromoter_ProducesExpectedOutput()
