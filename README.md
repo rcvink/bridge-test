@@ -14,7 +14,7 @@ Don't panic! We realize that you may or may not already know C#. When you come i
 
 2. Install [Git](https://git-scm.com/downloads) and clone this git repository using the following command:
 
-`git clone https://github.com/BridgeInternationalAcademies/JuniorDeveloperTechnicalTest.git`
+    `git clone https://github.com/BridgeInternationalAcademies/JuniorDeveloperTechnicalTest.git`
 
 3. Open the `JuniorDeveloperTechnicalTest` directory in Visual Studio Code by clicking on the 'File' menu, followed by 'Open Folder', now select the `JuniorDeveloperTechnicalTest` directory.
 
