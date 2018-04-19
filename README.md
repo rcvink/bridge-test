@@ -11,6 +11,19 @@ Don't panic! We realize that you may or may not already know C#. When you come i
 ## Getting Started
 
 1. Follow [these](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code) simple instructions to install the .NET Core SDK and Visual Studio Code, it also shows you how you can create and run your first C# application. The .NET Core SDK contains all of the tools need to compile and run C# applications. Visual Studio Code is a code editor which can be used to write C# applications, as well as applications using many other languages.
-2. Follow the [C# Quickstart Guide](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/index) to learn more about the C# language and .NET Core. This guide runs entirely in the web browser.
+
+2. Install [Git](https://git-scm.com/downloads) and clone this git repository using the following command:
+
+`git clone https://github.com/BridgeInternationalAcademies/JuniorDeveloperTechnicalTest.git`
+
+3. Open the `JuniorDeveloperTechnicalTest` directory in Visual Studio Code by clicking on the 'File' menu, followed by 'Open Folder', now select the `JuniorDeveloperTechnicalTest` directory.
+
+4. Open the 'Integrated Terminal' window if it isn't already open by clicking on the 'View' menu, followed by 'IntegratedTerminal'.
+
+5. Run `dotnet build` to compile the application, followed by ...
+
+## Learning C#
+
+For those eager to learn, follow the [C# Quickstart Guide](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/index) to learn more about the C# language and .NET Core. This guide runs entirely in the web browser, so you don't need to install anything.
 
 ## Good Luck!
