@@ -1,5 +1,6 @@
 using GradePromoter.Services;
 using GradePromoter.ViewModels;
+using Shouldly;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,9 +44,9 @@ namespace Tests
                 }
             };
 
-            var result = this.promotionService.GetPromotionResults(examResults);
-            Assert.NotEmpty(result);
-            Assert.True(result.First().Promoted);
+            var results = this.promotionService.GetPromotionResults(examResults);
+            results.Count.ShouldBeGreaterThan(0);
+            results.Single().Promoted.ShouldBeTrue();
         }
 
         [Fact]
@@ -75,9 +76,9 @@ namespace Tests
                 }
             };
 
-            var result = this.promotionService.GetPromotionResults(examResults);
-            Assert.NotEmpty(result);
-            Assert.False(result.First().Promoted);
+            var results = this.promotionService.GetPromotionResults(examResults);
+            results.Count.ShouldBeGreaterThan(0);
+            results.Single().Promoted.ShouldBeFalse();
         }
     }
 }
