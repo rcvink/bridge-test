@@ -17,7 +17,7 @@ namespace Tests
         }
 
         [Fact]
-        public void PupilWith70PercentAverage_returnsPromoted()
+        public void PupilWithGreaterThan50PercentAverage_ReturnsPromoted()
         {
             var examResults = new List<ExamResult>
             {
@@ -30,6 +30,16 @@ namespace Tests
                     PupilName = "Joe Bloggs",
                     Result = 70,
                     Subject = "Maths"
+                },
+                new ExamResult
+                {
+                    PupilId = 1,
+                    Grade = "Standard 1",
+                    AssesmentDate = new DateTime(),
+                    AssessmentType = "End-Term",
+                    PupilName = "Joe Bloggs",
+                    Result = 45,
+                    Subject = "English"
                 }
             };
 
@@ -39,7 +49,7 @@ namespace Tests
         }
 
         [Fact]
-        public void PupilWithLessThan70PercentAverage_returnsNotPromoted()
+        public void PupilWithLessThan50PercentAverage_ReturnsNotPromoted()
         {
             var examResults = new List<ExamResult>
             {
@@ -50,8 +60,18 @@ namespace Tests
                     AssesmentDate = new DateTime(),
                     AssessmentType = "End-Term",
                     PupilName = "Joe Bloggs",
-                    Result = 69,
+                    Result = 51,
                     Subject = "Maths"
+                },
+                 new ExamResult
+                {
+                    PupilId = 1,
+                    Grade = "Standard 1",
+                    AssesmentDate = new DateTime(),
+                    AssessmentType = "End-Term",
+                    PupilName = "Joe Bloggs",
+                    Result = 49,
+                    Subject = "English"
                 }
             };
 
