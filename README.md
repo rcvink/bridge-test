@@ -4,9 +4,9 @@
 
 ## Objective
 
-Clone this repository, read and understand the C# code and to get the application and tests running successfully. In the interview, there will be a pair programming exercise where you will pair with a Bridge developer to make some improvements or add new features to the application.
+The objective is simple, all you need to do is clone this repository, read and understand the C# code and to get the application and tests running successfully. You will then be called for an interview where there will be a pair programming exercise with a Bridge developer to make some improvements or add new features to the application.
 
-Don't panic! We realize that you may or may not already know C#. When you come in for the interview, you will have an expert C# developer to guide you through the technical test exercise. We're less interested in what you know and more interested in your thought process.
+Don't panic! We realise that you may or may not already know C#. When you come in for the interview, you will have an expert C# developer to guide you through the technical test exercise. We're less interested in what you know and more interested in your thought process.
 
 ## Getting Started
 
