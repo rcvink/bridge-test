@@ -19,7 +19,8 @@ Don't panic! We realise that you may or may not already know C#. When you come i
 6. Open the `JuniorDeveloperTechnicalTest` directory in Visual Studio Code by clicking on the 'File' menu, followed by 'Open Folder', now select the `JuniorDeveloperTechnicalTest` directory.
 7. Open the 'Integrated Terminal' window if it isn't already open by clicking on the 'View' menu, followed by 'IntegratedTerminal'.
 8. Run `dotnet build` to compile the application. Check to make sure that the application compiles successfully.
-9. Click on the 'Debug' menu, followed by 'Start Debugging' to start the application.
+9. Enable the .Net Test Explorer in the Visual Studio side bar, execute the tests and inspect the results.
+10. Click on the 'Debug' menu, followed by 'Start Debugging' to start the application.
 
 Spend some time getting to know the code.
 
