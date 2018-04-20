@@ -8,12 +8,6 @@ Clone this repository, read and understand the C# code and to get the applicatio
 
 Don't panic! We realize that you may or may not already know C#. When you come in for the interview, you will have an expert C# developer to guide you through the technical test exercise. We're less interested in what you know and more interested in your thought process.
 
-The application uses a couple of external libraries which you might find interesting to research:
-
-1. Linq (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/getting-started-with-linq)
-2. Moq (https://github.com/Moq/moq4/wiki/Quickstart)
-3. Shouldly (https://github.com/shouldly/shouldly)
-
 ## Getting Started
 
 1. Follow [these](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code) simple instructions to install the .NET Core SDK and Visual Studio Code, it also shows you how you can create and run your first C# application. The .NET Core SDK contains all of the tools need to compile and run C# applications. Visual Studio Code is a code editor which can be used to write C# applications, as well as applications using many other languages.
@@ -26,6 +20,12 @@ The application uses a couple of external libraries which you might find interes
 7. Click on the 'Debug' menu, followed by 'Start Debugging' to start the application.
 
 Spend some time getting to know the code.
+
+The application uses a couple of external libraries which you might find interesting to research:
+
+1. Linq (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/getting-started-with-linq)
+2. Moq (https://github.com/Moq/moq4/wiki/Quickstart)
+3. Shouldly (https://github.com/shouldly/shouldly)
 
 ## Learning C#
 
