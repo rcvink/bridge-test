@@ -1,4 +1,4 @@
-![Bridge International Academies Logo](https://raw.githubusercontent.com/BridgeInternationalAcademies/JuniorDeveloperTechnicalTest/master/Banner%20Logo%20280x60.png)
+![Bridge International Academies Logo](https://raw.githubusercontent.com/BridgeInternationalAcademies/JuniorDeveloperTechnicalTest/master/Main%Logo%(simplified)%-%Transparent.png)
 
 # Junior Developer Technical Test
 
