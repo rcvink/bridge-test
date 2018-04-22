@@ -13,7 +13,7 @@ namespace GradePromoter.IntegrationTest
         {
             var outfile = @".\Output.txt";
             var gradePromoter = new GradePromoter(new FileService(), new PromotionService());
-            gradePromoter.CalculatePromotions(@".\IntegrationTest\ExamResults.csv", outfile);
+            gradePromoter.CalculatePromotions(@"./IntegrationTest/ExamResults.csv", outfile);
 
             var output = await File.ReadAllLinesAsync(outfile);
             output.Length.ShouldBe(15);
